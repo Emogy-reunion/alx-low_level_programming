@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - program that printsa lower alphaabet 10 times
+ * My_function - program that printsa lower alphaabet 10 times
  * followed by a new line
  */
 
