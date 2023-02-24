@@ -11,7 +11,6 @@ void print_most_numbers(void)
 	for (k = 48; k < 58; k++)
 	{
 		if (k != 50)
-		
 		{
 			if (k != 52)
 			{
