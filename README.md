@@ -60,6 +60,5 @@
 * 0x05-pointers_arrays_strings ~ Contains files with programs and functions that show how to use pointers, arrays and strings.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 * 0x06-pointers_arrays_strings ~ It contains more files with programs and functions that show how to use pointers,arrays or strings.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 0x07-pointers_arrays_strings ~ It contains files with functions and programs that show how to use pointers, arrays and strings e.g pointer to a pointer, multidimensional arrays.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
