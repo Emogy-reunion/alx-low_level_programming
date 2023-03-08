@@ -1,18 +1,18 @@
-#POINTERS, ARRAYS AND STRINGS
+# POINTERS, ARRAYS AND STRINGS
 * The aim of this project is to learn how a pointer to a pointer works and also the working of multidimensional arrays.
 * Pointer-to-pointer ~ it is a pointer that contains the memory address of another pointer as its address.
 * Multidimensional arrays - this are arrays with more than one dimensions.
 
-#TECHNOLOGIES USED 
+# TECHNOLOGIES USED 
 * Written using  C programming language
 * Compiled using GCC 9.4.0
 * Tested on UBUNTU 20.04
 
-#FILES
+# FILES
 * Each of the files below contains either a function or a program that performs a specific task.
 * The files include:
 
-         FILES                 |            DESCRIPTION                
+                              FILES                 |                                              DESCRIPTION                
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 * _putchar.c - Has a function that prints output on stdout
 
