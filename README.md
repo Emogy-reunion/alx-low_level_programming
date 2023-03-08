@@ -1,4 +1,4 @@
-#C PROGRAMMING 
+# C PROGRAMMING 
 * This project is aimed to cover everything you need to know about C programming language.
 
 * C programming language is a high level programming language - it enables a programmer to write programs that are more or less independent of a particular type of       computer.
@@ -35,12 +35,12 @@
 * It lets you manipulate individual bits of memory.
 * It also has a rich selection operators that allow you to expand programming capabilities.
 
-#TECHNOLOGIES USED
+# TECHNOLOGIES USED
 * C programming language.
 * Compiled using GCC 9.4.0
 * Tested on UBUNTU 20.04.5
 
-#DIRECTORIES
+# DIRECTORIES
 * The directories in this repository contain files with either scripts,programs or functions that perform various tasks.
 * This repository contains the following directories:
 
@@ -49,16 +49,18 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 * 0x00-hello_world ~ Contains files with programs or functions or scripts that show various C programming basics eg how to input and output  data,  compilation process e.t.c
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-* 0x01-variables_if_else_while ~ contains files with programs that show how variables, if statements and C loops are used.
+* 0x01-variables_if_else_while ~ shows how variables, if statements and C loops are used.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-* 0x02-functions_nested_loops ~ Its files contain programs and functions that show the use various C Functions and nested loops.
+* 0x02-functions_nested_loops ~ shows the use various C Functions and nested loops.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-* 0x03-debugging ~ Its files contains programs that show how to debug by testing them.
+* 0x03-debugging ~ shows how to debug by testing them.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-* 0x04-more_functions_nested_loops ~ Contains more files with programs and functions to show the use of various C functions and nested loops.
+* 0x04-more_functions_nested_loops ~ Touches on uses of various C functions and nested loops.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-* 0x05-pointers_arrays_strings ~ Contains files with programs and functions that show how to use pointers, arrays and strings.
+* 0x05-pointers_arrays_strings ~ Deals with how to use pointers, arrays and strings.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-* 0x06-pointers_arrays_strings ~ It contains more files with programs and functions that show how to use pointers,arrays or strings.
+* 0x06-pointers_arrays_strings ~ Expounds on how to use pointers,arrays or strings.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-0x07-pointers_arrays_strings ~ It contains files with functions and programs that show how to use pointers, arrays and strings e.g pointer to a pointer, multidimensional arrays.
+* 0x07-pointers_arrays_strings ~ More info  on  how to use pointers, arrays and strings e.g pointer to a pointer, multidimensional arrays.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* 0x08-recursion - Touches on the working of recursive functions.
