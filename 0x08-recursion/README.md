@@ -1,4 +1,4 @@
-#C RECURSION
+# C RECURSION
 * The goal of the project is to work on recursion and know:
 1. What is recursion
 2. How to implement recursion
