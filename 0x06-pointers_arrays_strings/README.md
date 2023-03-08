@@ -1,4 +1,4 @@
-#POINTERS, ARRAYS AND STRINGS
+# POINTERS, ARRAYS AND STRINGS
 
 * The goal of this project is to learn how pointers,arrays and strings work in C programming language.
 
@@ -6,19 +6,19 @@
 * Arrays - contiguous memory areas that store elements of the same type.
 * Strings - One dimensional arrays of characters terminated by a null character '\0'
 
-#TECHNOLOGIES USED
+# TECHNOLOGIES USED
 
 * Written using C language
 * Compiled using GCC 9.4.0
 * Tested on UBUNTU 20.04
 
-#FILES
+# FILES
 
 - Each file contains either a program or a function that perfoms a certain task
 - The files include :
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-   FILE                                                              |                                DESCRIPTION
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                 FILE                                        |                      DESCRIPTION
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 * _putchar.c   -  Has a function that prints output on stdout
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
