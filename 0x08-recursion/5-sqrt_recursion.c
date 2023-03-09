@@ -9,6 +9,8 @@ int sqrt_helper(int n, int min, int max);
  */
 int _sqrt_recursion(int n)
 {
+	int m;
+
 	if (n < 0)
 	{
 		return (-1);
@@ -19,7 +21,7 @@ int _sqrt_recursion(int n)
 	}
 	else
 	{
-		sqrt_helper(n, 1, m);
+		return (sqrt_helper(n, 1, m));
 	}
 }
 /**
@@ -38,7 +40,7 @@ int sqrt_helper(int n, int min, int max)
 	{
 		return (min - 1);
 	}
-	int guess = (max + min) \ 2;
+	int guess = (max + min)\ 2;
 	int guess_squared = guess * guess;
 
 	if (guess_squared == n)
