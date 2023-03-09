@@ -40,7 +40,7 @@ int sqrt_helper(int n, int min, int max)
 	{
 		return (min - 1);
 	}
-	int guess = (max + min)\ 2;
+	int guess = (max + min) / 2;
 	int guess_squared = guess * guess;
 
 	if (guess_squared == n)
