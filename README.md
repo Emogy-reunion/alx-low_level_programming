@@ -64,3 +64,6 @@
 * 0x07-pointers_arrays_strings ~ More info  on  how to use pointers, arrays and strings e.g pointer to a pointer, multidimensional arrays.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 * 0x08-recursion - Touches on the working of recursive functions.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* 0x09-static_libraries - Deals with static libraries
+
