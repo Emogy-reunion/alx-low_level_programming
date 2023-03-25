@@ -1,5 +1,5 @@
 #include "main.h"
-int sqrt_helper(int n, int min, int max);
+int sqrt_helper(int n, int m);
 
 /**
  * _sqrt_recursion - returns the squareroot of a natural number
@@ -9,8 +9,6 @@ int sqrt_helper(int n, int min, int max);
  */
 int _sqrt_recursion(int n)
 {
-	int m;
-
 	if (n < 0)
 	{
 		return (-1);
@@ -21,38 +19,23 @@ int _sqrt_recursion(int n)
 	}
 	else
 	{
-		return (sqrt_helper(n, 1, m));
+		return (sqrt_helper(n, 0));
 	}
 }
-/**
- * sqrt_helper - perform a binary search for sqroot of n
- * between min & max guess
- * @n: no to find squareroot of
- * @min: minimum guess
- * @max: maximum guess
- * Return: guess if guess_squared = n
- * sqrt_helper(n, guess + 1, max) if guess < n
- * sqrt_helper(n, min, guess - 1) if guess > n
- */
-int sqrt_helper(int n, int min, int max)
-{
-	if (max < min)
-	{
-		return (min - 1);
-	}
-	int guess = (max + min) / 2;
-	int guess_squared = guess * guess;
 
-	if (guess_squared == n)
-	{
-		return (guess);
-	}
-	else if (guess_squared < n)
-	{
-		return (sqrt_helper(n, guess + 1, max));
-	}
+/**
+ * sqrt_helper - find the natural square root of a number by recursion
+ * @n: number to find square root of
+ * @m: iterator
+ *
+ * Return: the square root
+ */
+int sqrt_helper(int n, int m)
+{
+	if (m * m > n)
+		return (-1);
+	else if (m * m == n)
+		return (m);
 	else
-	{
-		return (sqrt_helper(n, min, max - 1));
-	}
+		return (sqrt_helper(n, m + 1));
 }
