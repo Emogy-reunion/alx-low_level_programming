@@ -32,4 +32,5 @@ void print_binary(unsigned long int n)
 		if (located_first_one)
 			_putchar(binary[x]);
 	}
+	_putchar('\n');
 }
