@@ -4,7 +4,7 @@
  * binary_to_uint - converts binary to an unsigned integer
  * @b: pointer to binary string to be converted
  *
- * return: converted number or
+ * Return:converted number or
  * 0  if b is null or there are one or more chars that is not 1 or 0
  */
 
