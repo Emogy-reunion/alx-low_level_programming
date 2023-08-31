@@ -17,7 +17,7 @@ void print_binary(unsigned long int n)
 	if (n == 0)
 		_putchar('0');
 
-	for (m = 0; m < 33; m++)
+	for (m = 0; m < 32; m++)
 	{
 		binary[m] = (n & 0x80000000) ? '1' : '0';
 		n <<= 1;
