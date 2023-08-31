@@ -29,7 +29,7 @@ void print_binary(unsigned long int n)
 	{
 		if (binary[x] == '1')
 			located_first_one = 1;
-		if(located_first_one)
+		if (located_first_one)
 			_putchar(binary[x]);
 	}
 }
