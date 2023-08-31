@@ -12,6 +12,7 @@ void print_binary(unsigned long int n)
 	static char binary[33];
 	int m;
 	int x;
+	int located_first_one;
 
 	if (n == 0)
 		_putchar('0');
@@ -23,7 +24,13 @@ void print_binary(unsigned long int n)
 	}
 	binary[m] = '\0';
 
+	located_first_one = 0;
 	for (x = 0; x < 33; x++)
-		_putchar(binary[x]);
+	{
+		if (binary[x] == '1')
+			located_first_one = 1;
+		if(located_first_one)
+			_putchar(binary[x]);
+	}
 	_putchar('\n');
 }
