@@ -9,23 +9,22 @@
 
 void print_binary(unsigned long int n)
 {
-	int shift = sizeof(n) * 8 - 1;
-	int leading_zeros = 1;
+	int m;
+	int not_zero = 0;
+	unsigned long int newest;
 
-	while (shift >= 0)
+	for (m = 63; m >= 0; m--)
 	{
-		if ((n >> shift) & 1)
+		latest = n >> m;
+
+		if (newest & 1)
 		{
-			leading_zeros = 0;
 			_putchar('1');
+			not_zero++;
 		}
-		else if (!leading_zeros)
-		{
+		else if (not_zero)
 			_putchar('0');
-		}
-		shift--;
 	}
-	if (leading_zeros)
+	if (!not_zero)
 		_putchar('0');
-	_putchar('\n');
 }
