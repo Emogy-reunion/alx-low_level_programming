@@ -15,7 +15,7 @@ void print_binary(unsigned long int n)
 
 	for (m = 63; m >= 0; m--)
 	{
-		latest = n >> m;
+		newest = n >> m;
 
 		if (newest & 1)
 		{
