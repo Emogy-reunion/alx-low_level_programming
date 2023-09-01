@@ -6,7 +6,7 @@
  * @index: bit to set
  * Return: 1 if it woorked or -1 iff it didn't
  */
-int set_bit(unsigned long int *n, unsigned int index);
+int set_bit(unsigned long int *n, unsigned int index)
 {
 	if (index > 63)
 		return (-1);
