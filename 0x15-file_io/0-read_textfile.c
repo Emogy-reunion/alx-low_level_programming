@@ -11,21 +11,36 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	char *stor;
-	ssize_t filed;
-	ssize_t m;
-	ssize_t g;
+	ssize_t filede;
+	ssize_t r;
+	ssize_t w;
 
-	/*open file*/
-	filed = open(filename, O_RDONLY);
-	/*check is file is open*/
-	if (filed == -1)
+	if (filename == NULL)
 		return (0);
-	/*dynamically allocate memory*/
-	stor = malloc(sizeof(char) * letters);
-	g = read(filed, buf, letters);
-	m = write(STDOUT_FILENO, stor, g);
 
-	free(stor);
-	close(filed);
-	return (m);
+	filede = open(filename, O_RDONLY);
+	if (fd == -1)
+		return (0);
+	
+	stor = malloc(sizeof(char) * letters);
+	if (stor == NULL)
+		return (0);
+
+	r = read(filede, stor, letters);
+	if (r == -1)
+	{
+		free(stor);
+		close(filede);
+		return (0);
+	}
+
+	w = write(STDOUT_FILENO, stor, r);
+	if (w == -1)
+	{
+		free(stor);
+		close(filede);
+		return (0);
+	}
+	close(filede);
+	return (r);
 }
