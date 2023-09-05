@@ -6,7 +6,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 
-void closse_elf(int elf);
+void closes_elf(int elf);
 void prints_type(unsigned int e_type, unsigned char *e_ident);
 void prints_entry(unsigned long int e_entry, unsigned char *e_ident);
 void prints_abi(unsigned char *e_ident);
